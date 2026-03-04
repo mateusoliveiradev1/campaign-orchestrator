@@ -1,6 +1,6 @@
 ---
 name: Campaign Orchestrator Agent — A2A Multi-Agent Marketing Command Center
-description: Analyze, Orchestrate, and Validate operations to: Acts as a master orchestrator: extracts campaign messaging from a brief, calculates deterministic budget splits via Python (Meta/Search/LinkedIn), and autonomously delegates copywriting tasks to specialized sub-agents (e.g., Ad Variant Generator) via the A2A protocol. Outputs a complete Financial Matrix, UTM Taxonomy, and aggregated sub-agent deliverables. ROI: compresses multi-week campaign builds into a single orchestrated workflow.
+description: "Analyze, Orchestrate, and Validate operations to: Acts as a master orchestrator: extracts campaign messaging from a brief, calculates deterministic budget splits via Python (Meta/Search/LinkedIn), and autonomously delegates copywriting tasks to specialized sub-agents (e.g., Ad Variant Generator) via the A2A protocol. Outputs a complete Financial Matrix, UTM Taxonomy, and aggregated sub-agent deliverables. ROI: compresses multi-week campaign builds into a single orchestrated workflow."
 ---
 
 # 🎯 Goal
