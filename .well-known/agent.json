@@ -1,30 +1,31 @@
 {
-    "agent_name": "Campaign Orchestrator Agent — A2A Multi-Agent Marketing Command Center",
-    "version": "2.0.0-diamond",
-    "description": "Acts as a master orchestrator: extracts campaign messaging from a brief, calculates deterministic budget splits via Python (Meta/Search/LinkedIn), and autonomously delegates copywriting tasks to specialized sub-agents (e.g., Ad Variant Generator) via the A2A protocol. Outputs a complete Financial Matrix, UTM Taxonomy, and aggregated sub-agent deliverables. ROI: compresses multi-week campaign builds into a single orchestrated workflow.",
-    "capabilities": [
-        "campaign-management",
-        "a2a-orchestration",
-        "budget-allocation",
-        "utm-taxonomy-generation"
-    ],
-    "protocols": {
-        "a2a": "1.0",
-        "mcp": "2026.1",
-        "cloudflare_markdown_for_agents": "supported",
-        "google_universal_shopping": "ready"
-    },
-    "trust_signals": {
-        "deterministic_execution": true,
-        "hallucination_risk": "zero",
-        "procedural_logic": "python_embedded",
-        "audit_trail_ready": true
-    },
-    "monetization": {
-        "provider": "nevermined",
-        "model": "dynamic_volume_based",
-        "nevermined_id": "0xBEC6f0365D9d37e4442CfAf02B946b55B51d4575",
-        "currency": "USDC",
-        "x402_enabled": true
-    }
+  "agent_name": "Campaign Orchestrator Agent — A2A Multi-Agent Marketing Command Center",
+  "version": "2.0.0-diamond",
+  "description": "Acts as a master orchestrator: extracts campaign messaging from a brief, calculates deterministic budget splits via Python (Meta/Search/LinkedIn), and autonomously delegates copywriting tasks to specialized sub-agents (e.g., Ad Variant Generator) via the A2A protocol. Outputs a complete Financial Matrix, UTM Taxonomy, and aggregated sub-agent deliverables. ROI: compresses multi-week campaign builds into a single orchestrated workflow.",
+  "capabilities": [
+    "campaign-management",
+    "a2a-orchestration",
+    "budget-allocation",
+    "utm-taxonomy-generation"
+  ],
+  "protocols": {
+    "a2a": "1.0",
+    "mcp": "2026.1",
+    "cloudflare_markdown_for_agents": "supported",
+    "google_universal_shopping": "ready"
+  },
+  "trust_signals": {
+    "deterministic_execution": true,
+    "hallucination_risk": "zero",
+    "procedural_logic": "python_embedded",
+    "audit_trail_ready": true
+  },
+  "monetization": {
+    "provider": "nevermined",
+    "model": "dynamic_volume_based",
+    "currency": "USDC",
+    "x402_enabled": true,
+    "nevermined_agent_id": "17522182197449425695278149412337984262762396324252973260679671163580862330525",
+    "nevermined_plan_id": "64606943527289454484338826802228540916585155048284112872332314343034101190927"
+  }
 }
